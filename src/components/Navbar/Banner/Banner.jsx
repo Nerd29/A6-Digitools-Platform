@@ -3,7 +3,7 @@ import { IoPlayOutline } from "react-icons/io5";
 
 const Banner = () => {
     return (
-        <div className='mt-[177px] max-w-7xl mx-auto'>
+        <div className='mt-[177px] max-w-7xl mx-auto flex justify-between items-center'>
             <div>
                 <div className="inline-flex items-center gap-2 bg-[#E1E7FF] px-3 py-2 rounded-full">
                 {/* The Alert Icon (Purple Dot) */}
@@ -18,7 +18,7 @@ const Banner = () => {
                 </div>
 
                 <div>
-                    <h2 className='text-[#101727] font-bold text-[72px]'>Supercharge Your<br />Digital Workflow</h2>
+                    <h2 className='text-[#101727] font-bold text-[72px]'>Supercharge Your<br /><span className='bg-gradient-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent'>Digital Workflow</span></h2>
                     <p className='text-[#627382] text-xl'>Access premium AI tools, design assets, templates, and productivity<br/>
                     software—all in one place. Start creating faster today.<br/>
                     Explore Products
@@ -29,7 +29,9 @@ const Banner = () => {
                     </div>
                 </div>
             </div>
-            <div></div>
+            <div>
+                <img src="./assets/banner.png" alt="" />
+            </div>
         </div>
     );
 };
