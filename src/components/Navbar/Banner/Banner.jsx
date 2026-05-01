@@ -3,7 +3,7 @@ import { IoPlayOutline } from "react-icons/io5";
 
 const Banner = () => {
     return (
-        <div className='mt-[177px] max-w-7xl mx-auto flex justify-between items-center'>
+        <div className='mt-[160px] max-w-7xl mx-auto  grid grid-cols-2 gap-10'>
             <div>
                 <div className="inline-flex items-center gap-2 bg-[#E1E7FF] px-3 py-2 rounded-full">
                 {/* The Alert Icon (Purple Dot) */}
@@ -29,7 +29,7 @@ const Banner = () => {
                     </div>
                 </div>
             </div>
-            <div>
+            <div className='w-[500px] -mt-20'>
                 <img src="./assets/banner.png" alt="" />
             </div>
         </div>

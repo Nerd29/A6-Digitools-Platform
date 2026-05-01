@@ -2,11 +2,13 @@ import React from 'react';
 
 const Tools = () => {
     return (
-        <div className='py-30 px-50 text-center'>
+        <div className='mt-[120px] max-w-7xl mx-auto'>
+             <div className=' text-center'>
             <h1 className='font-bold text-5xl'>Get Started in 3 Steps</h1>
             <p className='text-[16px] mt-3 opacity-90'>Start using premium digital tools in minutes, not hours.</p>
+            </div>
 
-            <div className='grid grid-cols-1 md:grid-cols-3 gap-5 mt-[40px]'>
+            <div className='grid grid-cols-1 md:grid-cols-3 mt-[40px] text-center'>
                 <div className='space-y-4 shadow-xl rounded-xl p-6 w-[380px] h-[350px]'>
                     <div className='flex justify-center pt-5'>
                         <img className=' border-gray-100 p-3 rounded-full bg-gray-100' src="./assets/user.png" alt="" />
@@ -33,6 +35,8 @@ const Tools = () => {
             </div>
             
         </div>
+        
+       
     );
 };
 

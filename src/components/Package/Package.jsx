@@ -4,7 +4,7 @@ import PricingCard from '../PricingCard/PricingCard';
 const Package = ({packagePromise}) => {
 
     const packageData=use(packagePromise)
-    console.log(packageData)
+    // console.log(packageData)
     return (
         <div className='py-30 px-50 text-center'>
             <h1 className='font-bold text-5xl'>Simple, Transparent Pricing</h1>
