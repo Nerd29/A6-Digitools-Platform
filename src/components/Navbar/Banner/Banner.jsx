@@ -18,8 +18,8 @@ const Banner = () => {
                 </div>
 
                 <div>
-                    <h2 className='text-[#101727] font-bold text-[72px]'>Supercharge Your<br /><span className='bg-gradient-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent'>Digital Workflow</span></h2>
-                    <p className='text-[#627382] text-xl'>Access premium AI tools, design assets, templates, and productivity<br/>
+                    <h2 className='text-[#101727] font-bold text-[60px]'>Supercharge Your<br /><span className='bg-gradient-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent'>Digital Workflow</span></h2>
+                    <p className='text-[#627382] text-[16px]'>Access premium AI tools, design assets, templates, and productivity<br/>
                     software—all in one place. Start creating faster today.<br/>
                     Explore Products
                     </p>
