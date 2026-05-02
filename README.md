@@ -16,6 +16,7 @@ React Icons – Integrated for a clean and professional iconography.
 React-Toastify – Providing real-time loading feedback and status updates.
 
 ✨Key Features
+
 🛒 1. Dynamic Cart Management & Real-time Feedback
 The platform features a fully reactive shopping experience. When a user clicks the "Buy Now" button, the system performs an availability check and updates the global cart state.
 
