@@ -10,6 +10,7 @@ import DigiTools from './components/DigiTools/DigiTools'
 import { useState } from 'react'
 import { Toaster } from 'react-hot-toast'
 import { ToastContainer } from 'react-toastify'
+import Footer from './components/Footer/Footer'
 
 const toolsPromise=fetch('tools.json')
 .then(res=>res.json());
@@ -33,6 +34,7 @@ function App() {
      <Package packagePromise={packagePromise}></Package>
 
      </Suspense>
+     <Footer></Footer>
      </div>
     </>
   )
