@@ -2,7 +2,7 @@ import React from 'react';
 import PricingFeature from './PricingFeature';
 
 const PricingCard = ({pricing}) => {
-    // console.log(pricing)
+    
     return (
         <div className={`relative p-8 rounded-2xl text-left shadow-lg ${
             pricing.isPopular 
