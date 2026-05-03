@@ -6,7 +6,7 @@ const Package = ({packagePromise}) => {
     const packageData=use(packagePromise)
     // console.log(packageData)
     return (
-        <div className='py-30 px-50 text-center'>
+        <div className='py-20 px-6 md:px-20 max-w-7xl mx-auto text-center'>
             <h1 className='font-bold text-5xl'>Simple, Transparent Pricing</h1>
             <p className='text-[16px] mt-3 opacity-90'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
 

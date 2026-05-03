@@ -8,7 +8,7 @@ const Tools = () => {
             <p className='text-[16px] mt-3 opacity-90'>Start using premium digital tools in minutes, not hours.</p>
             </div>
 
-            <div className='grid grid-cols-1 md:grid-cols-3 mt-[40px] text-center'>
+            <div className='grid grid-cols-1 ml-10 md:grid-cols-3 mt-[40px] text-center'>
 
                 <div className='relative space-y-4 shadow-xl rounded-xl p-6 w-[380px] h-[350px]'>
                     {/* <div className='relative bg-white p-10 rounded-2xl shadow-lg border border-gray-100 text-center'> */}
